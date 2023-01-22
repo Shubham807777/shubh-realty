@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="top-contact-form.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="query-box">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <!-- <div class="title" style="background-color: #50b848 !important; padding: 20px;border-radius: 10px;">
+                <span >For More Details Call Us</span>
+                <span>9818311168</span>
+                <p></p>
+            </div> -->
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12" style="float:  right;">
+            <div class="main-form">
+                <h4>Fill The Form !</h4>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing</p> -->
+                <form id='contact_form1' method='post'
+                    action="https://deendayaljanawasyojna.co.in/submit-form">
+                    <input type="hidden" name="listing_id" value="">
+                    <input type="hidden" name="listing_name"
+                        value="diplomatsgolflinksector110.in">
+                    <input type="hidden" name="listing_url"
+                        value="diplomatsgolflinksector110.in">
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <input type="text" name="name" id="name" class="form-control"
+                                placeholder="Name" data-error="Firstname is required.">
+                            <!-- <div class="help-block with-errors"></div> -->
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="email" data-error="Valid email is required.">
+                            <!-- <div class="help-block with-errors"></div> -->
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" name="phone" id="phone" class="form-control"
+                                maxlength="10" placeholder="Mobile Number"
+                                data-error="Valid Phone Number is required.">
+                            <!-- <div class="help-block with-errors"></div> -->
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea class="form-control" id="message" name="message"
+                                placeholder="Message" cols="3"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <div>
+                                <button class="readon" id="submitbutton" type="button"
+                                    onclick="submitenquiry()"
+                                    style="background: #055941;color: #fff; border: 2px solid #fff;"
+                                    value="">SUBMIT NOW</button><br />
+                                <small class="hide errormgs" style="color: red;"><strong>Please
+                                        fill Name and Mobile Number</strong>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+.nrheading {
+    font-size: 3.5rem;
+    color: #012a4a;
+    margin-top: 15px;
+  }
+  .pad100 {
+    padding: 100px 0;
+  }
+  .padb100 {
+    padding-bottom: 100px;
+  }
+  .nrheading {
+    font-size: 3.5rem;
+    color: #012a4a;
+    margin-top: 15px;
+  }
+  .contactwrap .conformdetails {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #012a4a;
+    background: #ffffff;
+    margin-top: 40px;
+  }
+  .contactwrap .conformdetails .form-group.input-material {
+    position: relative;
+    margin-bottom: 40px;
+    /* textarea label */
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control{
+      height:37px;
+      font-size:13px;
+  }
+  .contactwrap .conformdetails .form-group.input-material textarea.form-control{
+      height:auto;
+      font-size:13px;
+  }
+  .contactwrap .conformdetails .form-group.input-material label {
+    position: absolute;
+  }
+  .contactwrap .conformdetails .form-group.input-material span {
+    color: #616161;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    bottom: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  .contactwrap .conformdetails .form-group.input-material textarea.form-control ~ span {
+    bottom: 90%;
+    bottom: calc(100% - 26px);
+  }
+  .contactwrap .assoreg .form-group.input-material textarea.form-control ~ span {
+      bottom: 90%;
+      bottom: calc(100% - 26px);
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control,
+  .contactwrap .conformdetails .form-group.input-material .form-select {
+    border: none;
+    border-bottom: 1px solid #7a7a7a;
+    border-radius: 0px;
+    background-color: transparent;
+    padding-left: 0px;
+    box-shadow: none;
+    position: relative;
+    /* required fields */
+    /* active state */
+    /* invalid state */
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:required ~ span::after,
+  .contactwrap .conformdetails .form-group.input-material .form-select:required ~ span::after {
+    content: "*";
+    color: #dc3545;
+    padding-left: 0px;
+    font-size: 1.2em;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:required ~ span.ms::after,
+  .contactwrap .conformdetails .form-group.input-material .form-select:required ~ span.ms::after {
+    display: none;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:focus, .contactwrap .conformdetails .form-group.input-material .form-control[value]:not([value=""]),
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus,
+  .contactwrap .conformdetails .form-group.input-material .form-select[value]:not([value=""]) {
+    border-bottom-color: #012a4a;
+    color: #012a4a;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:focus ~ span, .contactwrap .conformdetails .form-group.input-material .form-control[value]:not([value=""]) ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select[value]:not([value=""]) ~ span {
+    top: unset;
+    bottom: 100%;
+    bottom: calc(100% - 8px);
+    font-size: 11px;
+    color: #012a4a;
+    font-weight: 500;
+    transition: all 0.2s ease-out;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:focus.invalid, .contactwrap .conformdetails .form-group.input-material .form-control.invalid, .contactwrap .conformdetails .form-group.input-material .form-control:focus.parsley-error, .contactwrap .conformdetails .form-group.input-material .form-control[value]:not([value=""]).parsley-error,
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus.invalid,
+  .contactwrap .conformdetails .form-group.input-material .form-select.invalid,
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus.parsley-error,
+  .contactwrap .conformdetails .form-group.input-material .form-select[value]:not([value=""]).parsley-error {
+    border-bottom-color: #dc3545;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-control:focus.invalid ~ span, .contactwrap .conformdetails .form-group.input-material .form-control.invalid ~ span, .contactwrap .conformdetails .form-group.input-material .form-control:focus.parsley-error ~ span, .contactwrap .conformdetails .form-group.input-material .form-control[value]:not([value=""]).parsley-error ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus.invalid ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select.invalid ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select:focus.parsley-error ~ span,
+  .contactwrap .conformdetails .form-group.input-material .form-select[value]:not([value=""]).parsley-error ~ span {
+    color: #dc3545;
+  }
+  .contactwrap .conformdetails .form-group.input-material .form-select {
+    background-position: right 0 center;
+    padding-left: 0;
+  }
+  .contactwrap .conformdetails .form-group.input-material .parsley-errors-list {
+    color: #dc3545;
+    list-style: none;
+    font-size: 0.7em;
+    padding-left: 5px;
+    position: absolute;
+    top: 107%;
+  }
+  .contactwrap .conformdetails .custom-checkbox {
+    position: relative;
+    font-family: sans-serif;
+    margin: 8px 0;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox] {
+    display: none;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox] ~ b {
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #012a4a;
+    font-size: 20px;
+    color: #012a4a;
+    cursor: pointer;
+    line-height: 1;
+    outline: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:checked ~ b:after {
+    content: "✓";
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:disabled ~ b {
+    background-color: #012a4a;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:disabled:checked ~ b:after {
+    content: "✓";
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:disabled ~ b:after {
+    content: "";
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:hover ~ b {
+    border: 1px solid #012a4a;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:hover:disabled ~ b {
+    border-color: #012a4a;
+    cursor: not-allowed;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox]:hover:disabled ~ b ~ span {
+    cursor: not-allowed;
+  }
+  .contactwrap .conformdetails .custom-checkbox span {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "Gilroy";
+  }
+  

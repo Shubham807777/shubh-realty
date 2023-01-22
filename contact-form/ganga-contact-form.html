@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ganaga-contact-from.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Contact us -->
+  <section class="contactwrap pad100 pb-0" id="contact">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <h2 class="nrheading wow animate fadeInUp">Get in touch</h2>                  
+
+               <div class="conformdetails wow animate fadeInUp">
+               <form  id="contact-form"  method="post" action="https://deendayaljanawasyojna.co.in/submit-form">
+                      <div class="row">
+                          <div class="col-lg-6">
+                            <div class="form-group input-material">
+                                <input type="text" class="form-control" id="f-name-field" name="first_name" required>
+                                <span for="f-name-field">First Name</span>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group input-material">
+                                <input type="text" class="form-control" id="l-name-field" name="last_name" required>
+                                <span for="l-name-field">Last Name</span>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <div class="form-group input-material">
+                                <input type="text" class="form-control" id="phone-field" maxlength="10" minlength="10" name="mobile" onkeypress="return isNumberKey(event);" required>
+                                <span for="phone-field">Phone Number</span>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group input-material">
+                                <input type="email" class="form-control" id="email-field" name="email" required>
+                                <span for="email-field">Email Id</span>
+                            </div>
+                          </div>
+                      </div>                     
+                      
+                      <div class="form-group input-material">
+                          <textarea class="form-control" id="textarea-field" name="message" rows="3" required></textarea>
+                          <span for="textarea-field">Message</span>
+                      </div>   
+                      
+                      
+                      
+                      
+                      <div class="row align-items-center">
+                           <div class="col-lg-6 ">
+                           <div class="form-group custom-control" > 
+                           <div class="s-input s-input--rounded">
+                                <input type="checkbox" id="filter-rated6" name="customCheckboxcontact" value="yes" >
+                                <label for="filter-rated6">
+                                  <i class="aria-hidden"></i>
+                                  I accept the privacy policy and terms of use
+                                </label>
+                                <label for="customCheckboxcontact" generated="true" class="error"></label>
+                              </div>
+                          </div>
+
+                      </div>
+                          <div class="col-lg-6">
+                              <div class="submitbtn pull-right">
+                                  <button type="submit" value="submit" name="submit" class="btns btn-6 save_btn">Submit <span></span></button>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </form>
+               </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Contact us -->
+
+</body>
+</html>
